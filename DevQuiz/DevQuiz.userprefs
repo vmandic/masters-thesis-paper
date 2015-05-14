@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="DevQuiz.Android/DevQuiz.Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevQuiz.Android/Activities/MainActivity.cs">
+    <Files>
+      <File FileName="DevQuiz.Android/Activities/MainActivity.cs" Line="12" Column="60" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
