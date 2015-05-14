@@ -1,0 +1,4 @@
+DevQuiz.Android.MainActivity, DevQuiz.Android;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity
+DevQuiz.Android.MainActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity
+DevQuiz.Android.MainActivity;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity
+devquiz.android.MainActivity;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity
