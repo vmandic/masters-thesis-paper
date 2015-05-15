@@ -14,14 +14,13 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int myButton=0x7f050000;
+        public static final int textView1=0x7f050000;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
         public static final int AppName=0x7f040002;
-        public static final int AppStateKeyName=0x7f040003;
         public static final int ErrorTitle=0x7f040000;
         public static final int Loading=0x7f040001;
     }
