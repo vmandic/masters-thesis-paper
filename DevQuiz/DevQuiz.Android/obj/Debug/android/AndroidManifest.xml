@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="DevQuiz.Android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="DevQuiz.Android" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="11" />
-  <application android:label="DevQuiz.Android" android:name="mono.android.app.Application" android:debuggable="true">
+  <application android:label="DevQuiz" android:theme="@android:style/Theme.Holo.Light" android:name="md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp" android:debuggable="true">
+    <activity android:label="BaseActivity" android:name="md570fa50062c737815207a3a9848de1ca4.BaseActivity_1" />
     <activity android:icon="@drawable/icon" android:label="DevQuiz.Android" android:name="md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -1,3 +1,11 @@
+DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+DevQuiz.Android.Activities.BaseActivity`1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+devquiz.android.activities.BaseActivity_1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+DevQuiz.Android.DevQuizApp, DevQuiz.Android;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
+DevQuiz.Android.DevQuizApp, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
+DevQuiz.Android.DevQuizApp;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
+devquiz.android.DevQuizApp;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
 DevQuiz.Android.MainActivity, DevQuiz.Android;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity
 DevQuiz.Android.MainActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity
 DevQuiz.Android.MainActivity;md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity

@@ -1,0 +1,7 @@
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.dll
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.pdb
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\bin\Debug\Newtonsoft.Json.dll
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\bin\Debug\Newtonsoft.Json.xml
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.dll
+\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.pdb
