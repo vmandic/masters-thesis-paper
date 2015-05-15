@@ -1,1 +1,1 @@
-<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">DevQuiz.Android</string></resources>
+<resources><string name="ErrorTitle">Oops! Error!</string><string name="Loading">Loading...</string><string name="AppName">DevQuiz</string><string name="AppStateKeyName">DevQuizAppState</string></resources>
