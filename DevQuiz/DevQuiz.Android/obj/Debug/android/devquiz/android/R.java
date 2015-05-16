@@ -11,17 +11,53 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int backarrow=0x7f020000;
+        public static final int forwardarrow=0x7f020001;
+        public static final int icon=0x7f020002;
     }
     public static final class id {
-        public static final int textView1=0x7f050000;
+        public static final int AboutBtnBack=0x7f060001;
+        public static final int AboutTvActionBarText=0x7f060003;
+        public static final int DifficultyChooserBtnBack=0x7f060004;
+        public static final int DifficultyChooserBtnEasy=0x7f060006;
+        public static final int DifficultyChooserBtnForward=0x7f060005;
+        public static final int DifficultyChooserBtnMedium=0x7f060007;
+        public static final int DifficultyChooserBtnPro=0x7f060008;
+        public static final int MainBtnAbout=0x7f06000c;
+        public static final int MainBtnStart=0x7f06000b;
+        public static final int MainTvAppName=0x7f060009;
+        public static final int MainTvBuiltWith=0x7f06000d;
+        public static final int MainTvSubheader=0x7f06000a;
+        public static final int linearLayout1=0x7f060000;
+        public static final int relativeLayout1=0x7f060002;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int aboutview=0x7f030000;
+        public static final int difficultychooserview=0x7f030001;
+        public static final int gameloopview=0x7f030002;
+        public static final int gameresultview=0x7f030003;
+        public static final int startview=0x7f030004;
     }
     public static final class string {
+        public static final int About=0x7f04000a;
+        public static final int AboutTheApp=0x7f040006;
         public static final int AppName=0x7f040002;
+        public static final int AppNameSubheader=0x7f040003;
+        public static final int Back=0x7f040007;
+        public static final int BuiltWith=0x7f040004;
+        public static final int Choose_difficulty=0x7f04000b;
+        public static final int EASY=0x7f04000c;
         public static final int ErrorTitle=0x7f040000;
+        public static final int Finish=0x7f040009;
         public static final int Loading=0x7f040001;
+        public static final int MEDIUM=0x7f04000d;
+        public static final int Next=0x7f040008;
+        public static final int PRO=0x7f04000e;
+        public static final int StartNewGame=0x7f040005;
+    }
+    public static final class style {
+        public static final int actionBarBackButton=0x7f050001;
+        public static final int actionBarNextButton=0x7f050002;
+        public static final int appActionBar=0x7f050000;
     }
 }

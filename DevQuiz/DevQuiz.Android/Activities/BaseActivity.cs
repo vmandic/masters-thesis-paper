@@ -18,12 +18,17 @@ using DevQuiz.Core.Services.Implementation;
 
 namespace DevQuiz.Android.Activities
 {
-    [Activity(Label = "BaseActivity")]
+    [Activity]
     public class BaseActivity<TViewModel> : Activity where TViewModel : BaseViewModel
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+
+            ActionBar.Hide();
+            Window.AddFlags(WindowManagerFlags.Fullscreen);
+            Window.ClearFlags(WindowManagerFlags.ForceNotFullscreen);
+
             Log.Info(GetType().FullName, "Activity OnCreate called.");
 
             // try restoring app state
@@ -31,13 +36,16 @@ namespace DevQuiz.Android.Activities
                 ServiceContainer.SetInstance(bundle.GetString(DevQuizApp.AppStateKeyName));
             else
             {
-                // register services
-                ServiceContainer.Register<IGameWebService>(() => new LocalGameWebService());
+                if (!ServiceContainer.HasInstance)
+                {
+                    // register services
+                    ServiceContainer.Register<IGameWebService>(() => new LocalGameWebService());
 
-                // register view models
-                ServiceContainer.Register<GameViewModel>(() => new GameViewModel());
-                ServiceContainer.Register<AboutViewModel>(() => new AboutViewModel());
-                ServiceContainer.Register<MainViewModel>(() => new MainViewModel());
+                    // register view models
+                    ServiceContainer.Register<GameViewModel>(() => new GameViewModel());
+                    ServiceContainer.Register<AboutViewModel>(() => new AboutViewModel());
+                    ServiceContainer.Register<MainViewModel>(() => new MainViewModel());
+                }
             }
         }
 

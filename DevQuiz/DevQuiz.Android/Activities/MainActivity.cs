@@ -11,26 +11,34 @@ using DevQuiz.Core.Models.ViewModels;
 
 namespace DevQuiz.Android
 {
-    [Activity(Label = "DevQuiz.Android", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(MainLauncher = true)]
     public class MainActivity : BaseActivity<MainViewModel>
     {
-        int count = 1;
+        Button _btnStart, _btnAbout;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            // NOTE: set our view from the "main" layout resource
+            SetContentView(Resource.Layout.StartView);
 
-            //// Get our button from the layout resource,
-            //// and attach an event to it
-            //Button button = FindViewById<Button>(Resource.Id.myButton);
+            // NOTE: fetch buttons
+            _btnStart = FindViewById<Button>(Resource.Id.MainBtnStart);
+            _btnAbout = FindViewById<Button>(Resource.Id.MainBtnAbout);
 
-            //button.Click += delegate
-            //{
-            //    button.Text = string.Format("{0} clicks!", count++);
-            //};
+            _btnStart.Click += btnStart_Click;
+            _btnAbout.Click += btnAbout_Click;
+        }
+
+        void btnAbout_Click(object sender, EventArgs e)
+        {
+            StartActivity(new Intent(this, typeof(AboutActivity)).SetFlags(ActivityFlags.ReorderToFront));
+        }
+
+        void btnStart_Click(object sender, EventArgs e)
+        {
+            StartActivity(new Intent(this, typeof(DifficultyChooserActivity)).SetFlags(ActivityFlags.ReorderToFront));
         }
     }
 }

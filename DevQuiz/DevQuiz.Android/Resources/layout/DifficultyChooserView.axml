@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        style="@style/appActionBar">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/DifficultyChooserBtnBack"
+            style="@style/actionBarBackButton"
+            android:layout_alignParentLeft="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/DifficultyChooserBtnForward"
+            style="@style/actionBarNextButton"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+        <TextView
+            android:text="@string/Choose_difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:textSize="42dp"
+            android:layout_marginBottom="100dp" />
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DifficultyChooserBtnEasy"
+            android:layout_marginBottom="12dp"
+            android:textOff="@string/EASY"
+            android:textOn="@string/EASY" />
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DifficultyChooserBtnMedium"
+            android:layout_marginBottom="12dp"
+            android:textOff="@string/MEDIUM"
+            android:textOn="@string/MEDIUM" />
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DifficultyChooserBtnPro"
+            android:layout_marginBottom="12dp"
+            android:textOff="@string/PRO"
+            android:textOn="@string/PRO" />
+    </LinearLayout>
+</LinearLayout>

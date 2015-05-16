@@ -2,6 +2,22 @@ DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android;md570fa50062c73781520
 DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
 DevQuiz.Android.Activities.BaseActivity`1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
 devquiz.android.activities.BaseActivity_1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+DevQuiz.Android.Activities.AboutActivity, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.AboutActivity
+DevQuiz.Android.Activities.AboutActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.AboutActivity
+DevQuiz.Android.Activities.AboutActivity;md570fa50062c737815207a3a9848de1ca4.AboutActivity
+devquiz.android.activities.AboutActivity;md570fa50062c737815207a3a9848de1ca4.AboutActivity
+DevQuiz.Android.Activities.DifficultyChooserActivity, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity
+DevQuiz.Android.Activities.DifficultyChooserActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity
+DevQuiz.Android.Activities.DifficultyChooserActivity;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity
+devquiz.android.activities.DifficultyChooserActivity;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity
+DevQuiz.Android.Activities.GameLoopActivity, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.GameLoopActivity
+DevQuiz.Android.Activities.GameLoopActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.GameLoopActivity
+DevQuiz.Android.Activities.GameLoopActivity;md570fa50062c737815207a3a9848de1ca4.GameLoopActivity
+devquiz.android.activities.GameLoopActivity;md570fa50062c737815207a3a9848de1ca4.GameLoopActivity
+DevQuiz.Android.Activities.GameResultActivity, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
+DevQuiz.Android.Activities.GameResultActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
+DevQuiz.Android.Activities.GameResultActivity;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
+devquiz.android.activities.GameResultActivity;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
 DevQuiz.Android.DevQuizApp, DevQuiz.Android;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
 DevQuiz.Android.DevQuizApp, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
 DevQuiz.Android.DevQuizApp;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
