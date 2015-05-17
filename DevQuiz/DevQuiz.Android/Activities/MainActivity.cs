@@ -1,17 +1,15 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content.PM;
 using Android.OS;
+using Android.Widget;
 using DevQuiz.Android.Activities;
 using DevQuiz.Core.Models.ViewModels;
+using System;
 
 namespace DevQuiz.Android
 {
-    [Activity(MainLauncher = true)]
+    [Activity(MainLauncher = true, LaunchMode = LaunchMode.SingleInstance)]
     public class MainActivity : BaseActivity<MainViewModel>
     {
         Button _btnStart, _btnAbout;
@@ -33,12 +31,12 @@ namespace DevQuiz.Android
 
         void btnAbout_Click(object sender, EventArgs e)
         {
-            StartActivity(new Intent(this, typeof(AboutActivity)).SetFlags(ActivityFlags.ReorderToFront));
+            StartActivity(typeof(AboutActivity));
         }
 
         void btnStart_Click(object sender, EventArgs e)
         {
-            StartActivity(new Intent(this, typeof(DifficultyChooserActivity)).SetFlags(ActivityFlags.ReorderToFront));
+            StartActivity(typeof(DifficultyChooserActivity));
         }
     }
 }

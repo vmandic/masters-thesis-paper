@@ -1,19 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
-using Android.OS;
 using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.Util;
 using DevQuiz.Core;
-using DevQuiz.Core.Services.Interfaces;
-using DevQuiz.Core.Services.Implementation;
-using DevQuiz.Core.Models.ViewModels;
+using System;
 
 namespace DevQuiz.Android
 {
@@ -31,6 +20,9 @@ namespace DevQuiz.Android
         public override void OnCreate()
         {
             Log.Info(GetType().FullName, "Application OnCreate called.");
+            ServiceContainer.Initialize();
+            Log.Info(GetType().FullName, "Service Container initialized.");
+
             base.OnCreate();
         }
     }

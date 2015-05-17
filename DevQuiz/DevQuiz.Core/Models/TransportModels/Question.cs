@@ -1,13 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevQuiz.Core.Models.TransportModels
 {
     public class Question
     {
+        private static int idCounter = 0;
+
+        public Question()
+        {
+
+        }
+
+        public Question(DifficultyEnum difficulty, string questionText)
+        {
+            QuestionId = ++idCounter;
+            Difficulty = difficulty;
+            Text = questionText;
+        }
+
         public int QuestionId { get; set; }
         public string Text { get; set; }
         public DifficultyEnum Difficulty { get; set; }

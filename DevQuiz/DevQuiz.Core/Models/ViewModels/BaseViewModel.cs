@@ -13,10 +13,14 @@ namespace DevQuiz.Core.Models.ViewModels
 {
     public class BaseViewModel
     {
-        protected readonly IGameWebService _service = ServiceContainer.Resolve<IGameWebService>();
+        public IGameWebService GameService
+        {
+            get { return ServiceContainer.Resolve<IGameWebService>(); }
+        }
 
-        public delegate void Change(object sender, EventArgs e);
-        public event Change IsBusyChanged = delegate { };
+
+        public delegate void BussyHandler(object sender, EventArgs e);
+        public event BussyHandler OnBusyChanged = delegate { };
 
         private bool _isBussy;
 
@@ -26,7 +30,7 @@ namespace DevQuiz.Core.Models.ViewModels
             set
             {
                 _isBussy = value;
-                IsBusyChanged(this, EventArgs.Empty);
+                OnBusyChanged(this, EventArgs.Empty);
             }
         }
 

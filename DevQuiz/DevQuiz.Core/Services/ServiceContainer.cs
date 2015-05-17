@@ -1,11 +1,7 @@
-﻿using Newtonsoft.Json;
-//  ServiceContainer.cs
-//
-//  Author:
-//       Vedran Mandić <mandic.vedran@gmail.com>
-//
-//  Copyright (c) 2015 vmandic
-//
+﻿using DevQuiz.Core.Models.ViewModels;
+using DevQuiz.Core.Services.Implementation;
+using DevQuiz.Core.Services.Interfaces;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
@@ -17,9 +13,9 @@ namespace DevQuiz.Core
         private volatile static ServiceContainer instance;
         private static readonly Dictionary<Type, Lazy<object>> services = new Dictionary<Type, Lazy<object>>();
 
-        public static ServiceContainer Instance { get { return instance ?? (instance = new ServiceContainer()); } }
+        public static ServiceContainer Instance { get { return instance; } }
 
-        public static void Register<T>(Func<T> factory)
+        public void Register<T>(Func<T> factory)
         {
             services[typeof(T)] = new Lazy<object>(() => factory());
         }
@@ -42,13 +38,12 @@ namespace DevQuiz.Core
         public static bool SetInstance(ServiceContainer sentInstance)
         {
             lock (locker)
-            {
                 if (!HasInstance)
                 {
                     instance = sentInstance;
                     return true;
                 }
-            }
+
             return false;
         }
 
@@ -62,7 +57,20 @@ namespace DevQuiz.Core
             return JsonConvert.SerializeObject(Instance);
         }
 
-        public static bool HasInstance { get { return instance == null; } }
+        public static bool HasInstance { get { return instance != null; } }
+
+        public static void Initialize()
+        {
+            instance = instance ?? (new ServiceContainer());
+
+            // register services
+            instance.Register<IGameWebService>(() => new LocalGameWebService());
+
+            // register view models
+            instance.Register<GameViewModel>(() => new GameViewModel());
+            instance.Register<AboutViewModel>(() => new AboutViewModel());
+            instance.Register<MainViewModel>(() => new MainViewModel());
+        }
     }
 }
 
