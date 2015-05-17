@@ -1,12 +1,4 @@
 ﻿using DevQuiz.Core.Services.Interfaces;
-//
-//  BaseViewModel.cs
-//
-//  Author:
-//       Vedran Mandić <mandic.vedran@gmail.com>
-//
-//  Copyright (c) 2015 vmandic
-//
 using System;
 
 namespace DevQuiz.Core.Models.ViewModels
@@ -17,7 +9,6 @@ namespace DevQuiz.Core.Models.ViewModels
         {
             get { return ServiceContainer.Resolve<IGameWebService>(); }
         }
-
 
         public delegate void BussyHandler(object sender, EventArgs e);
         public event BussyHandler OnBusyChanged = delegate { };
@@ -32,11 +23,6 @@ namespace DevQuiz.Core.Models.ViewModels
                 _isBussy = value;
                 OnBusyChanged(this, EventArgs.Empty);
             }
-        }
-
-
-        public BaseViewModel()
-        {
         }
     }
 }

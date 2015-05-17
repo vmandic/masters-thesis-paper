@@ -7,10 +7,7 @@ namespace DevQuiz.Core.Models.TransportModels
     {
         private static int idCounter = 0;
 
-        public Question()
-        {
-
-        }
+        public Question() { }
 
         public Question(DifficultyEnum difficulty, string questionText)
         {
@@ -26,10 +23,7 @@ namespace DevQuiz.Core.Models.TransportModels
 
         public bool IsAnsweredCorrectly
         {
-            get
-            {
-                return PossibleAnswers.Where(x => x.IsReallyCorrectAnswer).All(x => x.MarkedByPlayerAsCorrectAnswer);
-            }
+            get { return PossibleAnswers.Where(x => x.IsReallyCorrectAnswer).All(x => x.MarkedByPlayerAsCorrectAnswer); }
         }
     }
 }

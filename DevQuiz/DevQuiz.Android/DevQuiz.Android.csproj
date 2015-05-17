@@ -63,6 +63,7 @@
     <Compile Include="Activities\DifficultyChooserActivity.cs" />
     <Compile Include="Activities\GameLoopActivity.cs" />
     <Compile Include="Activities\GameResultActivity.cs" />
+    <Compile Include="Adapters\QuestionAnswersAdapter.cs" />
     <Compile Include="DevQuizApp.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +84,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AboutView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\QuestionAnswerListItem.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -137,7 +141,5 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\forwardArrow.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Adapters\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

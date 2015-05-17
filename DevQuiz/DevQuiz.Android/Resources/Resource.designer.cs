@@ -87,20 +87,26 @@ namespace DevQuiz.Android
 			// aapt resource value: 0x7f060008
 			public const int DifficultyChooserBtnPro = 2131099656;
 			
-			// aapt resource value: 0x7f06000c
-			public const int MainBtnAbout = 2131099660;
-			
-			// aapt resource value: 0x7f06000b
-			public const int MainBtnStart = 2131099659;
-			
-			// aapt resource value: 0x7f060009
-			public const int MainTvAppName = 2131099657;
+			// aapt resource value: 0x7f06000e
+			public const int MainBtnAbout = 2131099662;
 			
 			// aapt resource value: 0x7f06000d
-			public const int MainTvBuiltWith = 2131099661;
+			public const int MainBtnStart = 2131099661;
+			
+			// aapt resource value: 0x7f06000b
+			public const int MainTvAppName = 2131099659;
+			
+			// aapt resource value: 0x7f06000f
+			public const int MainTvBuiltWith = 2131099663;
+			
+			// aapt resource value: 0x7f06000c
+			public const int MainTvSubheader = 2131099660;
+			
+			// aapt resource value: 0x7f060009
+			public const int QuestionAnswerListItemTvAnswerNumber = 2131099657;
 			
 			// aapt resource value: 0x7f06000a
-			public const int MainTvSubheader = 2131099658;
+			public const int QuestionAnswerListItemTvAnswerText = 2131099658;
 			
 			// aapt resource value: 0x7f060000
 			public const int linearLayout1 = 2131099648;
@@ -134,7 +140,10 @@ namespace DevQuiz.Android
 			public const int GameResultView = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int StartView = 2130903044;
+			public const int QuestionAnswerListItem = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int StartView = 2130903045;
 			
 			static Layout()
 			{
@@ -191,8 +200,14 @@ namespace DevQuiz.Android
 			// aapt resource value: 0x7f04000e
 			public const int PRO = 2130968590;
 			
+			// aapt resource value: 0x7f04000f
+			public const int PleaseSelectADifficulty = 2130968591;
+			
 			// aapt resource value: 0x7f040005
 			public const int StartNewGame = 2130968581;
+			
+			// aapt resource value: 0x7f040010
+			public const int Warning = 2130968592;
 			
 			static String()
 			{

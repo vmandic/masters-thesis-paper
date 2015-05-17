@@ -1,13 +1,5 @@
 ﻿using DevQuiz.Core.Models.TransportModels;
 using DevQuiz.Core.Services.Interfaces;
-//
-//  LocalGameWebService.cs
-//
-//  Author:
-//       Vedran Mandić <mandic.vedran@gmail.com>
-//
-//  Copyright (c) 2015 vmandic
-//
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -106,4 +98,3 @@ namespace DevQuiz.Core.Services.Implementation
         }
     }
 }
-

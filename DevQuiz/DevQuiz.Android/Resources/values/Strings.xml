@@ -15,4 +15,6 @@
   <string name="EASY">EASY</string>
   <string name="MEDIUM">MEDIUM</string>
   <string name="PRO">PRO</string>
+  <string name="PleaseSelectADifficulty">Please select a difficulty!</string>
+  <string name="Warning">Warning</string>
 </resources>

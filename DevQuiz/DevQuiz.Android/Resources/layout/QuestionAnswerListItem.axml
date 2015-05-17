@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/btn_default"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+    <TextView
+        android:text="[A)]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/QuestionAnswerListItemTvAnswerNumber"
+        android:textSize="24dp"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:text="[Lorem ipsum sit amen enctur sit amen enctur sit amen enctur sit amen enctur sit amen enctur sit amen enctur sit amen enctursit amen enctur sit amen enctur sit amen enctur dolor sit amen enctur sit amen enctur sit amen enctursit amen enctursit amen enctur sit amen enctursit amen enctursit amen enctur sit amen enctursit amen enctur sit amen enctur...]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/QuestionAnswerListItemTvAnswerText"
+        android:padding="6dp" />
+</LinearLayout>
