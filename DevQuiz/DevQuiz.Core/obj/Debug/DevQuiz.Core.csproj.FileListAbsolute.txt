@@ -5,3 +5,10 @@
 \\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.csprojResolveAssemblyReference.cache
 \\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.dll
 \\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.pdb
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.dll
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.pdb
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.csprojResolveAssemblyReference.cache
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.dll
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\obj\Debug\DevQuiz.Core.pdb

@@ -11,6 +11,7 @@ public class BaseActivity_1
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onResume:()V:GetOnResumeHandler\n" +
+			"n_onPause:()V:GetOnPauseHandler\n" +
 			"n_onDestroy:()V:GetOnDestroyHandler\n" +
 			"n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler\n" +
 			"";
@@ -40,6 +41,14 @@ public class BaseActivity_1
 	}
 
 	private native void n_onResume ();
+
+
+	public void onPause ()
+	{
+		n_onPause ();
+	}
+
+	private native void n_onPause ();
 
 
 	public void onDestroy ()

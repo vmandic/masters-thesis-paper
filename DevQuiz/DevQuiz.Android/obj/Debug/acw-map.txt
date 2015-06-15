@@ -18,6 +18,10 @@ DevQuiz.Android.Activities.GameResultActivity, DevQuiz.Android;md570fa50062c7378
 DevQuiz.Android.Activities.GameResultActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
 DevQuiz.Android.Activities.GameResultActivity;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
 devquiz.android.activities.GameResultActivity;md570fa50062c737815207a3a9848de1ca4.GameResultActivity
+DevQuiz.Android.Adapters.QuestionAnswersAdapter, DevQuiz.Android;md5a3861000fd863d8c54a84347d8c3f7b1.QuestionAnswersAdapter
+DevQuiz.Android.Adapters.QuestionAnswersAdapter, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a3861000fd863d8c54a84347d8c3f7b1.QuestionAnswersAdapter
+DevQuiz.Android.Adapters.QuestionAnswersAdapter;md5a3861000fd863d8c54a84347d8c3f7b1.QuestionAnswersAdapter
+devquiz.android.adapters.QuestionAnswersAdapter;md5a3861000fd863d8c54a84347d8c3f7b1.QuestionAnswersAdapter
 DevQuiz.Android.DevQuizApp, DevQuiz.Android;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
 DevQuiz.Android.DevQuizApp, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp
 DevQuiz.Android.DevQuizApp;md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp

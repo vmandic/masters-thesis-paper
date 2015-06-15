@@ -7,7 +7,7 @@
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity" />
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.GameLoopActivity" />
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.GameResultActivity" />
-    <activity android:name="md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity">
+    <activity android:launchMode="singleInstance" android:name="md5bfda1791bf3fc12f39eb9415f41daffb.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

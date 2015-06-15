@@ -40,7 +40,7 @@ namespace DevQuiz.Android.Adapters
 
             var question = this[position];
 
-            tbAnswerNumber.Text = (position + 1).ToString();
+            tbAnswerNumber.Text = (position + 1) + ") ";
             tbAnswerText.Text = question.Text;
 
             return convertView;

@@ -1,7 +1,9 @@
-﻿using DevQuiz.Core.Models.TransportModels;
+﻿using DevQuiz.Core.Models.ApplicationModels;
+using DevQuiz.Core.Models.TransportModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace DevQuiz.Core.Models.ViewModels
 {
@@ -14,9 +16,34 @@ namespace DevQuiz.Core.Models.ViewModels
         public int CurrentQuestionNumber { get; set; }
         public IEnumerable<Question> CurrentQuestions { get; set; }
 
+        private int _correctAnswers = 0;
+
+        public int CorrectAnswers
+        {
+            get
+            {
+                return _correctAnswers;
+            }
+        }
+        public int WrongAnswers
+        {
+            get
+            {
+                return (int)NUMBER_OF_QUESTIONS - CorrectAnswers;
+            }
+        }
+
+        public int Score
+        {
+            get
+            {
+                return CorrectAnswers * 1000;
+            }
+        }
+
         public Question CurrentQuestion { get { return CurrentQuestions.ElementAt(CurrentQuestionNumber - 1); } }
 
-        public async void LoadQuestions()
+        public async Task LoadQuestions()
         {
             IsBussy = true;
             try
@@ -34,9 +61,18 @@ namespace DevQuiz.Core.Models.ViewModels
             }
         }
 
-        public void ConfirmAnswer(int answerNumber)
+        public void ResetAnswerCounter()
         {
-            CurrentQuestion.PossibleAnswers.ElementAt(answerNumber - 1).MarkedByPlayerAsCorrectAnswer = true;
+            _correctAnswers = 0;
+        }
+
+        public void ConfirmAnswerAtIndex(int answerIndex)
+        {
+            var answer = CurrentQuestion.PossibleAnswers.ElementAt(answerIndex);
+            answer.MarkedByPlayerAsCorrectAnswer = true;
+
+            if (answer.IsReallyCorrectAnswer)
+                _correctAnswers++;
         }
 
         public Question NextQuestion()
@@ -50,6 +86,7 @@ namespace DevQuiz.Core.Models.ViewModels
             else
             {
                 CurrentQuestionNumber = 1;
+                ResetAnswerCounter();
                 return CurrentQuestions.ElementAt(CurrentQuestionNumber);
             }
         }

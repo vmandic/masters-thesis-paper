@@ -18,25 +18,44 @@ public final class R {
     public static final class id {
         public static final int AboutBtnBack=0x7f060001;
         public static final int AboutTvActionBarText=0x7f060003;
-        public static final int DifficultyChooserBtnBack=0x7f060004;
-        public static final int DifficultyChooserBtnEasy=0x7f060006;
-        public static final int DifficultyChooserBtnForward=0x7f060005;
-        public static final int DifficultyChooserBtnMedium=0x7f060007;
-        public static final int DifficultyChooserBtnPro=0x7f060008;
-        public static final int MainBtnAbout=0x7f06000c;
-        public static final int MainBtnStart=0x7f06000b;
-        public static final int MainTvAppName=0x7f060009;
-        public static final int MainTvBuiltWith=0x7f06000d;
-        public static final int MainTvSubheader=0x7f06000a;
+        public static final int DifficultyChooserBtnBack=0x7f060005;
+        public static final int DifficultyChooserBtnEasy=0x7f060007;
+        public static final int DifficultyChooserBtnForward=0x7f060006;
+        public static final int DifficultyChooserBtnMedium=0x7f060008;
+        public static final int DifficultyChooserBtnPro=0x7f060009;
+        public static final int GameLoopBtnForward=0x7f06000b;
+        public static final int GameLoopListview=0x7f06000f;
+        public static final int GameLoopQuestion=0x7f06000d;
+        public static final int GameLoopQuestionNumber=0x7f06000a;
+        public static final int GameResultCorrect=0x7f060014;
+        public static final int GameResultDifficulty=0x7f060012;
+        public static final int GameResultScore=0x7f060018;
+        public static final int GameResultTitle=0x7f060010;
+        public static final int GameResultTitleBtnFinish=0x7f060011;
+        public static final int GameResultWrong=0x7f060016;
+        public static final int MainBtnAbout=0x7f06001e;
+        public static final int MainBtnStart=0x7f06001d;
+        public static final int MainTvAppName=0x7f06001b;
+        public static final int MainTvBuiltWith=0x7f06001f;
+        public static final int MainTvSubheader=0x7f06001c;
+        public static final int QuestionAnswerListItemTvAnswerNumber=0x7f060019;
+        public static final int QuestionAnswerListItemTvAnswerText=0x7f06001a;
         public static final int linearLayout1=0x7f060000;
+        public static final int linearLayout2=0x7f060013;
+        public static final int linearLayout3=0x7f060015;
         public static final int relativeLayout1=0x7f060002;
+        public static final int relativeLayout2=0x7f060017;
+        public static final int scrollView1=0x7f06000c;
+        public static final int textView1=0x7f060004;
+        public static final int textView2=0x7f06000e;
     }
     public static final class layout {
         public static final int aboutview=0x7f030000;
         public static final int difficultychooserview=0x7f030001;
         public static final int gameloopview=0x7f030002;
         public static final int gameresultview=0x7f030003;
-        public static final int startview=0x7f030004;
+        public static final int questionanswerlistitem=0x7f030004;
+        public static final int startview=0x7f030005;
     }
     public static final class string {
         public static final int About=0x7f04000a;
@@ -49,11 +68,13 @@ public final class R {
         public static final int EASY=0x7f04000c;
         public static final int ErrorTitle=0x7f040000;
         public static final int Finish=0x7f040009;
+        public static final int GOOD=0x7f04000d;
         public static final int Loading=0x7f040001;
-        public static final int MEDIUM=0x7f04000d;
         public static final int Next=0x7f040008;
         public static final int PRO=0x7f04000e;
+        public static final int PleaseSelectADifficulty=0x7f04000f;
         public static final int StartNewGame=0x7f040005;
+        public static final int Warning=0x7f040010;
     }
     public static final class style {
         public static final int actionBarBackButton=0x7f050001;

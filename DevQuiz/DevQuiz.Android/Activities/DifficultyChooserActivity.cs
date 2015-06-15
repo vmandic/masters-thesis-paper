@@ -54,19 +54,19 @@ namespace DevQuiz.Android.Activities
 
         void _btnPro_Click(object sender, EventArgs e)
         {
-            viewModel.CurrentDifficulty = DifficultyEnum.Pro;
+            viewModel.CurrentDifficulty = DifficultyEnum.PRO;
             _btnMedium.Checked = _btnEasy.Checked = false;
         }
 
         void _btnMedium_Click(object sender, EventArgs e)
         {
-            viewModel.CurrentDifficulty = DifficultyEnum.Medium;
+            viewModel.CurrentDifficulty = DifficultyEnum.GOOD;
             _btnPro.Checked = _btnEasy.Checked = false;
         }
 
         void _btnEasy_Click(object sender, EventArgs e)
         {
-            viewModel.CurrentDifficulty = DifficultyEnum.Easy;
+            viewModel.CurrentDifficulty = DifficultyEnum.EASY;
             _btnMedium.Checked = _btnPro.Checked = false;
         }
 

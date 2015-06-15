@@ -21,9 +21,21 @@ namespace DevQuiz.Core.Models.TransportModels
         public DifficultyEnum Difficulty { get; set; }
         public IEnumerable<PossibleAnswer> PossibleAnswers { get; set; }
 
+        public bool WasAnswered
+        {
+            get
+            {
+                return PossibleAnswers.Any(x => x.MarkedByPlayerAsCorrectAnswer);
+            }
+        }
+
         public bool IsAnsweredCorrectly
         {
-            get { return PossibleAnswers.Where(x => x.IsReallyCorrectAnswer).All(x => x.MarkedByPlayerAsCorrectAnswer); }
+            get
+            {
+                var ca = PossibleAnswers.Where(x => x.IsReallyCorrectAnswer);
+                return ca.Any(x => x.MarkedByPlayerAsCorrectAnswer);
+            }
         }
     }
 }

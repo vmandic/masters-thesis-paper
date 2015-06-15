@@ -1,4 +1,5 @@
 using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Widget;
 using DevQuiz.Core.Models.ViewModels;
@@ -26,6 +27,13 @@ namespace DevQuiz.Android.Activities
         void btnBack_Click(object sender, EventArgs e)
         {
             OnBackPressed();
+        }
+
+        public override void OnBackPressed()
+        {
+            var intent = new Intent(this, typeof(MainActivity));
+            intent.SetFlags(ActivityFlags.ClearTop);
+            StartActivity(intent);
         }
     }
 }

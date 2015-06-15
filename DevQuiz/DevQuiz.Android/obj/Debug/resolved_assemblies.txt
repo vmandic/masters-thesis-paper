@@ -1,6 +1,6 @@
-\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Android\bin\Debug\DevQuiz.Android.dll
-\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.dll
-\\psf\Home\Documents\Projects\DevQuiz\DevQuiz\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Android\bin\Debug\DevQuiz.Android.dll
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.dll
+C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll

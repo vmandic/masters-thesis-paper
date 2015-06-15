@@ -35,4 +35,20 @@
                 android:textSize="24dp" />
         </RelativeLayout>
     </LinearLayout>
+    <TextView
+        android:text="DevQuiz is a simple quiz game that tests your C# skills. The game was built with the Xamarin set of tools for Android. The game author is Vedran Mandić, student of the Algebra university of applied computer engineering in Zagreb."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_margin="12dp"
+        android:lineSpacingExtra="6dp" />
+    <TextView
+        android:text="Latest stable build was made on 15.6.2015."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_margin="12dp"
+        android:lineSpacingExtra="6dp" />
 </LinearLayout>

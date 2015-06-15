@@ -36,7 +36,16 @@ namespace DevQuiz.Android
 
         void btnStart_Click(object sender, EventArgs e)
         {
-            StartActivity(typeof(DifficultyChooserActivity));
+            var intent = new Intent(this, typeof(DifficultyChooserActivity));
+            intent.SetFlags(ActivityFlags.ClearTop);
+            StartActivity(intent);
+        }
+
+        public override void OnBackPressed()
+        {
+            Intent intent = new Intent(Intent.ActionMain);
+            intent.AddCategory(Intent.CategoryHome);
+            StartActivity(intent);
         }
     }
 }
