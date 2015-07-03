@@ -9,6 +9,14 @@ namespace DevQuiz.iOS
 	{
 		public AboutViewController (IntPtr handle) : base (handle)
 		{
+
 		}
+
+        public override void ViewWillAppear(bool animated)
+        {
+            this.NavigationController.NavigationBar.Hidden = false;
+            this.Title = "About";
+            this.NavigationController.NavigationBar.Items[0].Title = "Back";
+        }
 	}
 }

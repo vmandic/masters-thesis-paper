@@ -3,3 +3,9 @@
 /Users/vmandic/Documents/Projects/DevQuiz/DevQuiz/DevQuiz.Core/bin/Debug/DevQuiz.Core.dll
 /Users/vmandic/Documents/Projects/DevQuiz/DevQuiz/DevQuiz.Core/obj/Debug/DevQuiz.Core.dll
 /Users/vmandic/Documents/Projects/DevQuiz/DevQuiz/DevQuiz.Core/obj/Debug/DevQuiz.Core.dll.mdb
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/bin/Debug/DevQuiz.Core.dll.mdb
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/bin/Debug/DevQuiz.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/obj/Debug/DevQuiz.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/obj/Debug/DevQuiz.Core.dll.mdb
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/bin/Debug/Newtonsoft.Json.dll

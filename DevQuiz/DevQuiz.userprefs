@@ -1,16 +1,26 @@
-﻿<Properties StartupItem="DevQuiz.Android/DevQuiz.Android.csproj" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupItem="DevQuiz.iOS/DevQuiz.iOS.csproj" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevQuiz.Core/Models/ViewModels/GameViewModel.cs">
     <Files>
-      <File FileName="DevQuiz.Android/Activities/MainActivity.cs" Line="28" Column="30" />
-      <File FileName="DevQuiz.Core/Services/ServiceContainer.cs" Line="19" Column="70" />
-      <File FileName="DevQuiz.Core/Services/Interfaces/IGameWebService.cs" Line="15" Column="9" />
-      <File FileName="DevQuiz.Core/Services/Implementation/LocalGameWebService.cs" Line="16" Column="10" />
-      <File FileName="DevQuiz.Core/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="DevQuiz.Android/Resources/values/Strings.xml" Line="21" Column="1" />
+      <File FileName="DevQuiz.Android/Resources/values/Styles.xml" Line="1" Column="1" />
+      <File FileName="DevQuiz.Android/Activities/MainActivity.cs" Line="42" Column="10" />
+      <File FileName="DevQuiz.Android/Activities/BaseActivity.cs" Line="71" Column="10" />
+      <File FileName="DevQuiz.Core/Models/ViewModels/MainViewModel.cs" Line="7" Column="5" />
+      <File FileName="DevQuiz.Core/Services/Interfaces/IGameWebService.cs" Line="20" Column="10" />
+      <File FileName="DevQuiz.Core/Services/Implementation/LocalGameWebService.cs" Line="1" Column="1" />
+      <File FileName="DevQuiz.Android/DevQuizApp.cs" Line="23" Column="35" />
+      <File FileName="DevQuiz.Core/Services/ServiceContainer.cs" Line="67" Column="77" />
+      <File FileName="DevQuiz.iOS/AppDelegate.cs" Line="26" Column="13" />
+      <File FileName="DevQuiz.Android/Activities/GameLoopActivity.cs" Line="97" Column="41" />
+      <File FileName="DevQuiz.Core/Models/ViewModels/BaseViewModel.cs" Line="8" Column="9" />
+      <File FileName="DevQuiz.Core/Models/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="DevQuiz.Core/Models/ViewModels/GameViewModel.cs" Line="54" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DevQuiz.Android AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Holo.Light.NoActionBar.Fullscreen" />
 </Properties>

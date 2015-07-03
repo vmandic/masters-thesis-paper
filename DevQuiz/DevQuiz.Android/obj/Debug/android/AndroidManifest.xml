@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="DevQuiz.Android" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="11" />
   <application android:label="DevQuiz" android:theme="@android:style/Theme.Holo.Light" android:name="md5bfda1791bf3fc12f39eb9415f41daffb.DevQuizApp" android:debuggable="true">
-    <activity android:name="md570fa50062c737815207a3a9848de1ca4.BaseActivity_1" />
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.AboutActivity" />
+    <activity android:name="md570fa50062c737815207a3a9848de1ca4.BaseActivity_1" />
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity" />
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.GameLoopActivity" />
     <activity android:name="md570fa50062c737815207a3a9848de1ca4.GameResultActivity" />

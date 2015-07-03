@@ -17,7 +17,7 @@ namespace DevQuiz.Core.Services.Interfaces
         Task<IEnumerable<Question>> GetFiveEasyQuestions();
         Task<IEnumerable<Question>> GetFiveMediumQuestions();
         Task<IEnumerable<Question>> GetFiveProQuestions();
-        Task<IEnumerable<Question>> GetQuestions(DifficultyEnum difficulty, int numberOfQuestionsRequested);
+        ÷Task<IEnumerable<Question>> GetQuestions(DifficultyEnum difficulty, int numberOfQuestionsRequested);
     }
 }
 

@@ -1,0 +1,6 @@
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/obj/Release/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/bin/Release/DevQuiz.Core.dll.mdb
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/bin/Release/DevQuiz.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/obj/Release/DevQuiz.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/obj/Release/DevQuiz.Core.dll.mdb
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Core/bin/Release/Newtonsoft.Json.dll

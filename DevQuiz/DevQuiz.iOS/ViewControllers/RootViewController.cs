@@ -5,10 +5,18 @@ using UIKit;
 
 namespace DevQuiz.iOS
 {
-	partial class MyRootViewController : UIViewController
+	partial class RootViewController : UIViewController
 	{
-		public MyRootViewController (IntPtr handle) : base (handle)
+		public RootViewController (IntPtr handle) : base (handle)
 		{
+
 		}
+
+      public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+            this.Title = "DevQuiz";
+            this.NavigationController.NavigationBar.Hidden = true;
+        }
 	}
 }

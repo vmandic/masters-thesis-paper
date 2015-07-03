@@ -9,6 +9,7 @@ namespace DevQuiz.iOS
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
+        UIStoryboard Storyboard = UIStoryboard.FromName("MainStoryboard", null);
 
 		public override UIWindow Window {
 			get;
@@ -21,7 +22,7 @@ namespace DevQuiz.iOS
 			Window = new UIWindow (UIScreen.MainScreen.Bounds);
 
 			// If you have defined a root view controller, set it here:
-			// Window.RootViewController = myViewController;
+            Window.RootViewController = Storyboard.InstantiateInitialViewController();
 
 			// make the window visible
 			Window.MakeKeyAndVisible ();

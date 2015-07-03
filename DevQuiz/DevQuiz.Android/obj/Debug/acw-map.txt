@@ -1,11 +1,11 @@
-DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
-DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
-DevQuiz.Android.Activities.BaseActivity`1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
-devquiz.android.activities.BaseActivity_1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
 DevQuiz.Android.Activities.AboutActivity, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.AboutActivity
 DevQuiz.Android.Activities.AboutActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.AboutActivity
 DevQuiz.Android.Activities.AboutActivity;md570fa50062c737815207a3a9848de1ca4.AboutActivity
 devquiz.android.activities.AboutActivity;md570fa50062c737815207a3a9848de1ca4.AboutActivity
+DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+DevQuiz.Android.Activities.BaseActivity`1, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+DevQuiz.Android.Activities.BaseActivity`1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
+devquiz.android.activities.BaseActivity_1;md570fa50062c737815207a3a9848de1ca4.BaseActivity_1
 DevQuiz.Android.Activities.DifficultyChooserActivity, DevQuiz.Android;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity
 DevQuiz.Android.Activities.DifficultyChooserActivity, DevQuiz.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity
 DevQuiz.Android.Activities.DifficultyChooserActivity;md570fa50062c737815207a3a9848de1ca4.DifficultyChooserActivity

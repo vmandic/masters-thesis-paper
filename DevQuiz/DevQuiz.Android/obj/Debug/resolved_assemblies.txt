@@ -1,52 +1,49 @@
-C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Android\bin\Debug\DevQuiz.Android.dll
-C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\DevQuiz.Core\bin\Debug\DevQuiz.Core.dll
-C:\Users\Vedran\Source\Repos\masters-thesis-paper\DevQuiz\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.Concurrent.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Collections.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.Annotations.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ComponentModel.EventBasedAsync.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Contracts.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Debug.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Tools.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Diagnostics.Tracing.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Dynamic.Runtime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Globalization.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.IO.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Expressions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Parallel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Linq.Queryable.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Net.NetworkInformation.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Net.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Net.Requests.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ObjectModel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Emit.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Emit.ILGeneration.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Emit.Lightweight.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Reflection.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Resources.ResourceManager.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.InteropServices.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.InteropServices.WindowsRuntime.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Numerics.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Json.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Runtime.Serialization.Xml.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Security.Principal.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ServiceModel.Http.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ServiceModel.Primitives.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.ServiceModel.Security.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.Encoding.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.Encoding.Extensions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Text.RegularExpressions.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Tasks.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Tasks.Parallel.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Threading.Timer.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.ReaderWriter.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XDocument.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Xml.XmlSerializer.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/DevQuiz.Android.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/Newtonsoft.Json.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/DevQuiz.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Collections.Concurrent.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Collections.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.ComponentModel.Annotations.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.ComponentModel.EventBasedAsync.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.ComponentModel.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Diagnostics.Contracts.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Diagnostics.Debug.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Diagnostics.Tools.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Dynamic.Runtime.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Globalization.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.IO.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Linq.Expressions.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Linq.Parallel.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Linq.Queryable.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Linq.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Net.NetworkInformation.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Net.Primitives.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Net.Requests.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.ObjectModel.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Reflection.Emit.ILGeneration.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Reflection.Emit.Lightweight.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Reflection.Emit.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Reflection.Extensions.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Reflection.Primitives.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Reflection.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Resources.ResourceManager.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.Extensions.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.InteropServices.WindowsRuntime.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.InteropServices.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.Numerics.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.Serialization.Json.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.Serialization.Primitives.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.Serialization.Xml.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Runtime.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Security.Principal.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.ServiceModel.Http.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.ServiceModel.Primitives.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Text.Encoding.Extensions.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Text.Encoding.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Text.RegularExpressions.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Threading.Tasks.Parallel.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Threading.Tasks.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Threading.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Xml.ReaderWriter.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Xml.XDocument.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Debug/assemblies/System.Xml.XmlSerializer.dll

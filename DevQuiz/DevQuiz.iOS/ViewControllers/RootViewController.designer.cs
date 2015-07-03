@@ -12,17 +12,17 @@ using UIKit;
 namespace DevQuiz.iOS
 {
 	[Register ("MyRootViewController")]
-	partial class MyRootViewController
+	partial class RootViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIView MyRootViewController { get; set; }
+		UIView RootViewControllerInstance { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (MyRootViewController != null) {
-				MyRootViewController.Dispose ();
-				MyRootViewController = null;
+			if (RootViewControllerInstance != null) {
+				RootViewControllerInstance.Dispose ();
+				RootViewControllerInstance = null;
 			}
 		}
 	}

@@ -1,0 +1,13 @@
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/DevQuiz.Android.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/Newtonsoft.Json.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.Xml.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/Mono.Android.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/DevQuiz.Core.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/mscorlib.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.Reflection.Emit.ILGeneration.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.Reflection.Emit.Lightweight.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.Reflection.Emit.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.Runtime.Serialization.dll
+/Users/vmandic/masters-thesis-paper/DevQuiz/DevQuiz.Android/obj/Release/assemblies/System.ServiceModel.dll

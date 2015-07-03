@@ -69,7 +69,6 @@ namespace DevQuiz.Android.Activities
 
         protected override void OnDestroy()
         {
-
             base.OnDestroy();
             Log.Info(GetType().FullName, "Activity OnDestroy called.");
         }
